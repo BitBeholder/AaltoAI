@@ -1,12 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
+import React from 'react';
+import Header from './components/Header';
+import SocialMediaLinks from './components/SocialMediaLinks';
+import BoardMembers from './components/BoardMembers';
+import Footer from './components/Footer';
+import camFont from './assets/fonts/CAMechano_v1010-Regular.woff2';
+
+const fontFace = `
+  @font-face {
+    font-family: 'CAMechano';
+    src: url(${camFont}) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+`;
+
+document.head.insertAdjacentHTML('beforeend', `<style>${fontFace}</style>`);
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="bg-black text-white min-h-screen p-4 lg:p-12">
+      <Header />
+      <SocialMediaLinks />
+      <BoardMembers />
+      <Footer />
     </div>
   );
 }
