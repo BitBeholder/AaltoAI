@@ -11,7 +11,7 @@ const BoardMembers = () => {
   ];
 
   return (
-    <div className="py-96 flex flex-wrap justify-between items-center">
+    <div className="py-48 flex flex-wrap justify-between items-center">
       {members.map((member, index) => (
         <div key={index} className="w-full md:w-1/4 p-4 my-12 flex flex-col items-center text-center"> {/* Modified here */}
           <img src={member.img} alt={member.name} className="w-48 h-48 rounded-full mb-8" />

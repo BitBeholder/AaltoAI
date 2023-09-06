@@ -4,7 +4,7 @@ import { faInstagram, faLinkedin, faTelegramPlane } from '@fortawesome/free-bran
 
 const SocialMediaLinks = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-6 py-24">
+    <div className="flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-6">
       <a href="https://www.instagram.com/aaltoaisociety/" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faInstagram} className="text-white text-2xl hover:text-gray-400" />
       </a>
