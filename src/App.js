@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import SocialMediaLinks from './components/SocialMediaLinks';
 import BoardMembers from './components/BoardMembers';
+import Partners from './components/Partners';
 import Footer from './components/Footer';
 import camFont from './assets/fonts/CAMechano_v1010-Regular.woff2';
 
@@ -23,6 +24,7 @@ const App = () => {
       <Header />
       <SocialMediaLinks />
       <BoardMembers />
+      <Partners />
       <Footer />
     </div>
   );
