@@ -11,7 +11,7 @@ const SocialMediaLinks = () => {
       <a href="https://www.linkedin.com/company/aaltoai" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} className="text-white text-2xl hover:text-gray-400" />
       </a>
-      <a href="https://t.me/+PYA-PJ6tOcE5NjZk" target="_blank" rel="noopener noreferrer">
+      <a href="https://t.me/+GATsXRAQzO5jZmE0" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faTelegramPlane} className="text-white text-2xl hover:text-gray-400" />
       </a>
     </div>
