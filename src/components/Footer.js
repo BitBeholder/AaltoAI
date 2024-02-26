@@ -1,5 +1,6 @@
 import React from "react";
-import Pdf from "./aaltoai-rules.pdf";
+import rules from "./aaltoai-rules.pdf";
+import privacy_notive from "./AaltoAI-Privacy_Notice-(GDPR)";
 
 const Footer = () => {
   return (
@@ -14,8 +15,13 @@ const Footer = () => {
           />
         </div>
         <p className="text-center text-sm py-48 w-full">
-          <a href={Pdf} target="_blank">
+          <a href={rules} target="_blank">
             Download Rules (Finnish)
+          </a>
+        </p>
+        <p className="text-center text-sm py-48 w-full">
+          <a href={privacy_notive} target="_blank">
+            Download Privacy Notice (Finnish)
           </a>
         </p>
 
