@@ -27,7 +27,7 @@ const Footer = () => {
 
         {/* Other footer contents can go here */}
         <p className="text-center text-sm py-48">
-          &copy; 2023 AaltoAI. All rights reserved.
+          &copy; 2024 AaltoAI. All rights reserved.
         </p>
       </div>
     </footer>
