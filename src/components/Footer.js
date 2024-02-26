@@ -14,12 +14,12 @@ const Footer = () => {
             className="w-1/4"
           />
         </div>
-        <p className="text-center text-sm py-48 w-full">
+        <p className="text-center text-sm w-full">
           <a href={rules} target="_blank">
             Download Rules (Finnish)
           </a>
         </p>
-        <p className="text-center text-sm py-48 w-full">
+        <p className="text-center text-sm w-full">
           <a href={privacy_notive} target="_blank">
             Download Privacy Notice (Finnish)
           </a>
