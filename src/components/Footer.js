@@ -1,6 +1,6 @@
 import React from "react";
 import rules from "./aaltoai-rules.pdf";
-import privacy_notive from "./AaltoAI-Privacy_Notice-(GDPR)";
+import privacy_notive from "./AaltoAI-Privacy_Notice-(GDPR).pdf";
 
 const Footer = () => {
   return (
