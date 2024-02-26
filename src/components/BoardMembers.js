@@ -10,15 +10,15 @@ const BoardMembers = () => {
     {
       img: "/behramulukir.png",
       name: "Behram Ulukir",
-      role: "Research & Education Manager",
-      email: "research-education@aaltoai.com",
+      role: "Financier / Partnerships",
+      email: "finances@aaltoai.com",
       telegram: "@behramulukir",
     },
     {
       img: "/egor.png",
       name: "Egor Eremin",
-      role: "Financier / Partnerships",
-      email: "finances@aaltoai.com",
+      role: "Research & Education Manager",
+      email: "research-education@aaltoai.com",
       telegram: "@Gyydis",
     },
     {
